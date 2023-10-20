@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.infoForm {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px;
+  gap: 10px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.experienceRow,
+.educationRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: row;
+  gap: 10px;
+}
+
+.skillRow {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px;
+}
+
+.experienceForm,
+.educationForm,
+.skillsSection {
+  display: grid;
+  grid-template-rows: 50px;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: max-content;
+  margin-bottom: 20px;
+}
+
+.first,
+.last {
+  font-size: 50px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.resume {
+  box-shadow: 0 0 20px gray;
+  padding: 40px;
+  height: 1123px;
+  width: 794px;
+  background-color: white !important;
+}
+
+.educationContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 10px;
+}
+
+.forms {
+  justify-self: center;
+  display: grid;
+  width: 80%;
+  grid-template-columns: 1fr;
+  grid-auto-rows: max-content;
+  gap: 20px;
+}
+
+.experienceContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.experience {
+  margin-top: 10px;
+  display: grid;
+  gap: 20px;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
